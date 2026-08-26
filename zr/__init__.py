@@ -1,5 +1,5 @@
 """AdWords reporting tools"""
-__author__ = 'thorwhalen'
+__author__ = 'tcw'
 # This pfile contains function to deal with AdWords reporting
 
 import datetime
@@ -9,16 +9,16 @@ import pickle
 
 from adspygoogle import AdWordsClient
 
-import ut as ms
-import ut.aw.manip
-import ut.daf.ch as daf_ch
+import utcw as ms
+import utcw.aw.manip
+import utcw.daf.ch as daf_ch
 
-# import ut.misc.erenev.data_source as venere_data_source
+# import utcw.misc.erenev.data_source as venere_data_source
 import json
 import functools
 
 # from datapath import datapath
-import ut.pcoll.order_conserving as order_conserving
+import utcw.pcoll.order_conserving as order_conserving
 
 
 def excel_report_file_to_df(excel_file, sheetname=0):
