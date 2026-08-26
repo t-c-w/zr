@@ -25,7 +25,7 @@ classifiers = [
 dependencies = [
     "numpy",
     "pandas",
-    "utcw",
+    "utcw>=0.0.3",
 ]
 
 [project.urls]
